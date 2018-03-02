@@ -1,0 +1,273 @@
+
+main {
+    display: flex;
+    margin: 0 auto;
+    width: 1090px;
+}
+
+main .new-table-container {
+    position: relative;
+
+    color: #fff;
+}
+
+main th, main td {
+    vertical-align: middle !important;
+}
+
+main .table-body {
+    margin-right: 20px;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+main .new-table-container.t-2 {
+    width: 33%;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+main .new-table-container h3 {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    height: 60px;
+    font: normal 20px dinpro-medium, Arial, Verdana;
+    text-transform: uppercase;
+}
+
+main .new-table-container h3:before {
+    content: '';
+    position: relative;
+}
+
+/* Table 1*/
+
+main .zacjisleniya {
+    text-align: left;
+    width: 100%;
+}
+
+main .new-table-container.t-1 {
+    padding-right: 20px;
+}
+
+main .new-table-container.t-1:first-child {
+    margin: 0;
+    width: 94.5%;
+}
+
+main .t-scroll {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+main .new-table-container.t-1 h3:before {
+    left: -10px;
+    width: 27px;
+    height: 27px;
+    background: url('../images/rub.png');
+}
+
+main .new-table-container .zacjisleniya {
+    border-collapse: collapse;
+}
+
+main .new-table-container tr {
+    height: 50px;
+    font: normal 18px dinpro-medium, Arial, Verdana;
+}
+
+main .table-body .zacjisleniya thead:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.4);
+}
+
+main .table-body .zacjisleniya th {
+    width: 30%;
+}
+
+main .zacjisleniya tr td {
+    padding-left: 20px;
+    width: 30%;
+}
+
+main .table-body .zacjisleniya th:nth-child(1) {
+    width: 17%;
+}
+
+main .zacjisleniya tr td:nth-child(1) {
+    width: 17%;
+}
+
+main .table-body .zacjisleniya th:nth-child(3) {
+    width: 25%;
+}
+
+main .zacjisleniya tr td:nth-child(3) {
+    width: 25%;
+}
+
+main .table-body .zacjisleniya th:nth-child(4) {
+    width: 14%;
+}
+
+main .zacjisleniya tr td:nth-child(4) {
+    width: 12%;
+}
+
+main .table-body .zacjisleniya th:nth-child(5) {
+    width: 34%;
+}
+
+main .zacjisleniya tr td:nth-child(5) {
+    width: 12%;
+}
+
+main .zacjisleniya thead th {
+    padding-left: 20px;
+    color: #fff;
+    text-align: left;
+    font: normal 18px DINPro-Bold, Arial, Verdana;
+    text-transform: uppercase;
+}
+
+main .zacjisleniya tbody tr:nth-child(2n+1) {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+main .zacjisleniya tr td:nth-child(1) {
+    text-transform: uppercase;
+}
+
+main .zacjisleniya tr td:nth-child(3) {
+    padding: 0;
+    text-transform: lowercase;
+}
+
+main .zacjisleniya tr td:nth-child(2),
+main .zacjisleniya tr td:nth-child(3),
+main .zacjisleniya tr td:nth-child(5) {
+    font: 100 15px dinpro-medium, Arial, Verdana;
+}
+
+main .new-table-container .zacjisleniya tr td:nth-child(5) {
+    font: normal 15px DINPro-Bold, Arial, Verdana;
+}
+
+main .new-table-container .zacjisleniya tr:nth-child(1) td:nth-child(5) {
+    color: rgba(229, 86, 0, 0.7);
+}
+
+main .new-table-container .zacjisleniya tr td:nth-child(5) {
+    color: #efff64;
+    padding-right: 10px;
+}
+
+#ascrail2000 {
+    margin-top: -50px;
+}
+
+.nicescroll-rails:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 5px;
+    width: 1px;
+    height: 440px;
+    background: #6d3310;
+}
+
+/* Table 1*/
+
+/* Table 2*/
+
+main .new-table-container.t-2 {
+    padding: 0 20px;
+}
+
+main .new-table-container.t-2 h3 {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+main .new-table-container.t-2 h3:first-child:before {
+    left: -10px;
+    width: 19px;
+    height: 16px;
+    background: url('../images/cart.png');
+}
+
+main .new-table-container.t-2 h3:nth-child(2) {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #fff;
+}
+
+.zakupki {
+    position: relative;
+    margin-left: 15px;
+    border-collapse: collapse;
+}
+
+.zakupki tbody {
+    transition-duration: 3s;
+}
+
+main .new-table-container.t-2 thead:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -35px;
+    width: 343px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+main .new-table-container.t-2 thead tr th {
+    /*color: #000;*/
+    font: normal 18px dinpro-medium, Arial, Verdana;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.zakupki tr th:nth-child(2) {
+    position: absolute;
+    top: 10px;
+    left: 225px;
+}
+
+main .new-table-container.t-2 thead tr th span {
+    font: normal 13px dinpro-regular, Arial, Verdana;
+    text-transform: lowercase;
+}
+
+.expand {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 17px;
+    left: -25px;
+    width: 16px;
+    height: 16px;
+    background: url('../images/arrow-top.png') no-repeat 50% 50%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+main .rotate {
+    transform: rotate(180deg);
+    transition: .3s;
+}
+
+main .new-table-container.t-2 tbody tr td {
+    font: normal 16px dinpro-medium, Arial, Verdana;
+}
+
+/* Table 2*/
